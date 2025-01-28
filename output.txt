@@ -1,0 +1,78 @@
+===== BENCHMARK 1 =====
+Array: { 67,  12,  83,  36,  46}
+Size: 5
+
+--- Insertion Sort ---
+Output: { 12,  36,  46,  67,  83}
+Time to execute: 0.000916ms
+--- Selection Sort ---
+Output: { 12,  36,  46,  67,  83}
+Time to execute: 0.000491ms
+--- Bubble Sort ---
+Output: { 12,  36,  46,  67,  83}
+Time to execute: 0.00032ms
+
+
+===== BENCHMARK 2 =====
+Array: { 49,  29,  95,  9,  94,  22,  32,  27,  13,  11}
+Size: 10
+
+--- Insertion Sort ---
+Output: { 9,  11,  13,  22,  27,  29,  32,  49,  94,  95}
+Time to execute: 0.000587ms
+--- Selection Sort ---
+Output: { 9,  11,  13,  22,  27,  29,  32,  49,  94,  95}
+Time to execute: 0.000612ms
+--- Bubble Sort ---
+Output: { 9,  11,  13,  22,  27,  29,  32,  49,  94,  95}
+Time to execute: 0.000773ms
+
+
+===== BENCHMARK 3 =====
+Array: { 49,  30,  58,  20,  1,  94,  79,  84,  97,  28,  32,  38,  99,  56,  87,  58,  60,  44,  88,  37}
+Size: 20
+
+--- Insertion Sort ---
+Output: { 1,  20,  28,  30,  32,  37,  38,  44,  49,  56,  58,  58,  60,  79,  84,  87,  88,  94,  97,  99}
+Time to execute: 0.000879ms
+--- Selection Sort ---
+Output: { 1,  20,  28,  30,  32,  37,  38,  44,  49,  56,  58,  58,  60,  79,  84,  87,  88,  94,  97,  99}
+Time to execute: 0.001805ms
+--- Bubble Sort ---
+Output: { 1,  20,  28,  30,  32,  37,  38,  44,  49,  56,  58,  58,  60,  79,  84,  87,  88,  94,  97,  99}
+Time to execute: 0.001606ms
+
+
+===== BENCHMARK 4 =====
+Size: 100
+
+--- Insertion Sort ---
+Time to execute: 0.011347ms
+--- Selection Sort ---
+Time to execute: 0.017697ms
+--- Bubble Sort ---
+Time to execute: 0.028627ms
+
+
+===== BENCHMARK 5 =====
+Size: 10000
+
+--- Insertion Sort ---
+Time to execute: 28.2226ms
+--- Selection Sort ---
+Time to execute: 37.5238ms
+--- Bubble Sort ---
+Time to execute: 91.683ms
+
+
+===== BENCHMARK 6 =====
+Size: 100000
+
+--- Insertion Sort ---
+Time to execute: 2664.52ms
+--- Selection Sort ---
+Time to execute: 4892.01ms
+--- Bubble Sort ---
+Time to execute: 23991.5ms
+
+
