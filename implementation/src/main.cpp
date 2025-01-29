@@ -33,7 +33,7 @@ void benchmark_sorts(int array[], int size, int cur_num) {
     std::string sort_names[] = {"Insertion Sort", "Selection Sort", "Bubble Sort"};
     std::function<void(int[], int)> sort_algos[] = {insertion_sort, selection_sort, bubble_sort};
     std::cout << "===== BENCHMARK " << cur_num << " =====\n"
-              << ((size < 100) ? "Array: " + print_array(array, size) + "\n" : "")
+              << ((size < 50) ? "Array: " + print_array(array, size) + "\n" : "")
               << "Size: " << size << "\n"
               << std::endl;
     
@@ -44,7 +44,7 @@ void benchmark_sorts(int array[], int size, int cur_num) {
         sort_algos[i](dupe_array, size);
         end = std::chrono::high_resolution_clock::now();
         time_difference = end - start;
-        std::cout << ((size < 100) ? "Output: " + print_array(dupe_array, size) + "\n" : "")
+        std::cout << ((size < 50) ? "Output: " + print_array(dupe_array, size) + "\n" : "")
                   << "Time to execute: " << time_difference.count() << "ms"
                   << std::endl;
     }
