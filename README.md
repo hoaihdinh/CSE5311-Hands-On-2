@@ -6,7 +6,7 @@ This directory holds the source code in the src directory and array information 
 ```
 make
 ```
-### To Run:
+### To run:
 ```
 ./sorting_benchmark
 ```
